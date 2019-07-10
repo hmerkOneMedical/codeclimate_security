@@ -4,7 +4,7 @@ plugins:
     enabled: true
   tslint:
     enabled: true
-    config: .tslintrc
+    config: tslint.json
   eslint:
     enabled: true
     channel: "eslint-5"
