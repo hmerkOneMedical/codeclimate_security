@@ -3,7 +3,7 @@ plugins:
   bandit:
     enabled: true
   tslint:
-    enabled:true
+    enabled: true
     config: ./.tslintrc
   eslint:
     enabled: true
