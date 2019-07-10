@@ -1,1 +1,1 @@
-# testingrepos
+# codeclimate security config
