@@ -1,2 +1,0 @@
-eslint-plugin-security ~=1.2.0
-tslint-config-security ~=1.16.0
