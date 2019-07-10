@@ -4,7 +4,7 @@ plugins:
     enabled: true
   tslint:
     enabled: true
-    config: ./.tslintrc
+    config: .tslintrc
   eslint:
     enabled: true
-    config: ./.eslintrc
+    config: .eslintrc
