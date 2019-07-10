@@ -6,3 +6,6 @@ plugins:
     enabled: true
     channel: "eslint-5"
     config: .eslintrc.json
+  tslint:
+    enabled: true
+    config: tslint.json
