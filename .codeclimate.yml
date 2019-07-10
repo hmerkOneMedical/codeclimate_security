@@ -2,9 +2,6 @@ version: "2"
 plugins:
   bandit:
     enabled: true
-  tslint:
-    enabled: true
-    config: tslint.json
   eslint:
     enabled: true
     channel: "eslint-5"
