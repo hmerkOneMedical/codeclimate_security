@@ -6,3 +6,16 @@ plugins:
     enabled: true
     channel: "eslint-5"
     config: .eslintrc.json
+  
+  ## for ruby
+  grep:
+    enabled: true
+    config:
+      patterns:
+        no-set-methods:
+          pattern: RecordLoader.(...).load(...)
+          annotation: "Potential idor vulnerability."
+          severity: minor
+          categories: Security
+          path_patterns:
+            - "**/*.rb"
