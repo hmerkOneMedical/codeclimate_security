@@ -1,0 +1,7 @@
+{
+  "extends": "plugin:security/recommended",
+  "plugins": [
+      "security"
+  ],
+  "parser": "babel-eslint"
+}
