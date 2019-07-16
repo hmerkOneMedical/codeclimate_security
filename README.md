@@ -5,9 +5,11 @@ Install on a per-repo basis:
 - Install GitHub app in repos: (REPO OWNER)
     - https://github.com/apps/codeclimate
 - Add repo to codeclimate (Codeclimate ADMIN)
-    - Ensure all contributors to repo have codeclimate accounts. Only code owned by codeclimate members will get analyzed.
+    - Add it to the “Developers” and “appsec” teams
+    - Ensure all contributors to repo have codeclimate accounts. (Only code owned by codeclimate members will get analyzed.)
 - In the codeclimate dashboard, navigate to repo settings
-    - Under Github, enable summary comments, inline issue comments, etc.
+    - Under Github, enable summary comments, inline issue comments, etc. Hit "save" on the left.
+    - Hit install on the right next to "pull request status updates"
     
     
 Configure with .codeclimate.yml file.
