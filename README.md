@@ -28,3 +28,8 @@ Configure with .codeclimate.yml file.
   ```
   npm install babel-eslint --save-dev
   ```
+
+Triaging Vulnerabilities
+-
+- Bandit is pretty clear with advice :yay:
+- Eslint security not so much: Rules that are flagged are defined here https://github.com/nodesecurity/eslint-plugin-security
