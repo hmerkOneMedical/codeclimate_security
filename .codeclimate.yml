@@ -1,8 +1,4 @@
 version: "2"
-prepare:
-  fetch:
-    - url: 'https://raw.githubusercontent.com/webschik/tslint-config-security/master/tsconfig.json'
-      path: 'tslint.json'
 plugins:
   bandit:
     enabled: true
@@ -13,4 +9,3 @@ plugins:
       config: .eslintrc
   tslint:
     enabled: true
-    config: tslint.json
