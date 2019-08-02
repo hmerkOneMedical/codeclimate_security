@@ -29,6 +29,8 @@ Configure with .codeclimate.yml file.
   npm install babel-eslint --save-dev
   ```
 
+-- Testing security analysis for typescript
+
 Triaging Vulnerabilities
 -
 - Bandit is pretty clear with advice :yay:
