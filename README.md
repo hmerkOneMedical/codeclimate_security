@@ -32,3 +32,5 @@ Triaging Vulnerabilities
 -
 - Bandit is pretty clear with advice :yay:
 - Eslint security not so much: Rules that are flagged are defined here https://github.com/nodesecurity/eslint-plugin-security
+- To mark a value as a false positive, use 
+```// eslint-disable-line``` or more specifically, ```// eslint-disable-line [RULE NAME HERE]```
