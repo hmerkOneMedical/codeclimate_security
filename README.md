@@ -17,19 +17,16 @@ Configure with .codeclimate.yml file.
 - Add plugins:
   - bandit (python)
   - eslint (js)
-  - tslint (ts)
 - Note:
-  - eslint and tslint need plugins to run security analysis in addition to linting.
+  - eslint needs a plugin to run security analysis in addition to linting.
   ```
   npm i --save-dev eslint-plugin-security
-  npm i --save-dev tslint-config-security 
   ```
   - eslint will error until parser is installed.
   ```
   npm install babel-eslint --save-dev
   ```
 
--- Testing security analysis for typescript
 
 Triaging Vulnerabilities
 -
